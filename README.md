@@ -61,7 +61,7 @@ During this internship, I gained practical experience in:
 
 📞 Phone: +91 7776994342
 
-🌐 Portfolio: **https://portfolio-disha-deshmukh.vercel.app/
+🌐 Portfolio: https://disha-deshmukh-portfolio.netlify.app/
 
 💻 GitHub: https://github.com/DishaDeshmukh06
 
