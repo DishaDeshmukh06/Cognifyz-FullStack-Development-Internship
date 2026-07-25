@@ -1,0 +1,179 @@
+/* General */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fc;
+    transition:0.4s;
+}
+
+/* Dark Mode */
+.dark-mode{
+    background:#121212;
+    color:#ffffff;
+}
+
+.dark-mode .card{
+    background:#1f1f1f;
+    color:#ffffff;
+}
+
+.dark-mode .card-header{
+    background:#0d6efd !important;
+}
+
+.dark-mode .navbar{
+    background:#000000 !important;
+}
+
+.dark-mode footer{
+    background:#000000 !important;
+}
+
+.dark-mode .feature-card{
+    background:#2b2b2b;
+    color:#ffffff;
+}
+
+.dark-mode .form-control{
+    background:#333333;
+    color:#ffffff;
+    border:1px solid #666;
+}
+
+.dark-mode .form-control::placeholder{
+    color:#cccccc;
+}
+
+.dark-mode .form-label{
+    color:#ffffff;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* Hero Image */
+.hero-image{
+    width:340px;
+    max-width:100%;
+    animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+
+0%{
+    transform:translateY(0);
+}
+
+50%{
+    transform:translateY(-12px);
+}
+
+100%{
+    transform:translateY(0);
+}
+
+}
+
+/* Card */
+.card{
+    border:none;
+    border-radius:15px;
+}
+
+.card-header{
+    border-radius:15px 15px 0 0 !important;
+}
+
+.card-body{
+    padding:30px;
+}
+
+/* Inputs */
+.form-control{
+    border-radius:8px;
+}
+
+.form-control:focus{
+    box-shadow:0 0 10px rgba(13,110,253,.4);
+}
+
+/* Button */
+.btn{
+    border-radius:8px;
+}
+
+/* Feature Cards */
+.feature-card{
+    transition:.3s;
+    border:none;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.feature-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+
+}
+
+/* Password Strength */
+#strengthText{
+    display:block;
+    margin-top:8px;
+    font-weight:bold;
+}
+
+/* Welcome Text */
+#welcome{
+    font-weight:bold;
+}
+
+/* Footer */
+footer{
+    margin-top:40px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+.hero-image{
+
+    width:220px;
+
+    margin-bottom:25px;
+
+}
+
+.card{
+
+    margin-top:20px;
+
+}
+
+.navbar-brand{
+
+    font-size:20px;
+
+}
+
+.btn-warning{
+
+    margin-bottom:10px;
+
+}
+
+}
